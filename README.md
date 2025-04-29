@@ -1,8 +1,3 @@
-Got it — you want a **clean, professional, beautiful** GitHub README formatting for your **AnimEvent Editor** tool.  
-Here’s a full **Markdown** version ready for your `README.md` file:
-
----
-
 # AnimEvent Editor
 
 A lightweight Unity Editor tool for **previewing animations** and **adding Animation Events** easily inside the Unity Editor.
