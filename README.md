@@ -1,54 +1,88 @@
-# AnimEvent Editor
+# 🎬 AnimEvent Editor
 
-A lightweight Unity Editor tool for **previewing animations** and **adding Animation Events** easily inside the Unity Editor.
+**AnimEvent Editor** is a lightweight, powerful Unity Editor extension that lets you preview animations and insert Animation Events with precision — directly from a custom editor window.  
+Whether you're syncing **footsteps**, **VFX**, **sword slashes**, or **sound effects**, this tool makes event placement fast and intuitive.
 
 ---
 
 ## ✨ Features
-- 🎞️ Preview any `AnimationClip` on a character in the scene.
-- 🎚️ Control animation playback manually with a time slider.
-- ⚡ Quickly add **Animation Events** at any point.
-- 🛠️ Set **function names** and **optional object parameters**.
-- 🔄 Instantly updates your clips for use in gameplay or effects (e.g., footsteps, sword slashes).
+
+- 🎞️ Preview any `AnimationClip` on a character inside the scene.
+- 🎚️ Scrub the timeline manually with a time slider.
+- ⚡ Instantly add **Animation Events** at any frame.
+- ✍️ Assign event function names and optional object parameters.
+- 🔁 Real-time update of clips for gameplay use.
 
 ---
 
 ## 🚀 Getting Started
 
-1. Open Unity and navigate to `TalaeiDev > AnimEvent Editor`.
-2. Drag and drop a **Character** (scene object with an `Animator` component) into the Character field.
-3. Select an **Animation Clip** you want to preview.
-4. Use the **time slider** to scrub through the animation.
-5. Set the **Event Function Name**.
-6. (Optional) Assign an **Object Parameter** if needed.
-7. Click **"Add Event at Current Time"** to insert an `AnimationEvent` into the clip!
+1. In Unity, open the editor from `TalaeiDev > AnimEvent Editor`.
+2. Assign a **Character** (scene object with an `Animator` component).
+3. Select an **Animation Clip**.
+4. Use the **slider** to scrub through the clip and preview motion.
+5. Set a **Function Name** and optional **Object Parameter**.
+6. Click **"Add Event at Current Time"** to inject an `AnimationEvent`.
+
+> ✅ Works best with scene-instantiated characters, not prefab assets directly.
 
 ---
 
 ## 📦 Requirements
-- Unity **2022 LTS** or later recommended.
-- Full support for **Unity 6** (2024+) versions.
-- A **Character GameObject** in the scene (must have an `Animator` component).
+
+- Unity **2022 LTS** or **Unity 6.0+** (2024 LTS) recommended.
+- Character object must be active in the scene with an `Animator` component.
 
 ---
 
-## 📋 Notes
-- Make sure your Character is **instantiated in the scene**, not just a prefab from the Project window.
-- Works with **generic**, **humanoid**, and **legacy** animations.
-- This tool modifies the selected AnimationClip by adding events.
+## 🛠️ Planned Features
+
+- 🔉 **Play Sound or VFX During Preview**  
+  - Preview **slash**, **impact**, or **footstep** effects right in the editor.  
+  - Supports `AudioClip`, `ParticleSystem`, or prefab-based triggers.
+
+- 🪟 **Separate Animation Preview Window**  
+  - Preview your animation in a **dedicated, minimal UI panel**, independent of the Scene view.
+
+- 🎚️ **Animation Curve Editing**  
+  - Add and manage custom animation curves (e.g., for float parameters, shader intensities, etc.).  
+  - Curve editor embedded directly in the event tool.
+
+- 🦶 **Auto Footstep Detection**  
+  - Automatically place footstep events based on foot bone height or ground contact timing.
+
+- 🗂️ **Event Categories & Color Labels**  
+  - Organize events with visual tags (e.g., `Footstep`, `Attack`, `Effect`) in the timeline.
+
+- 🔁 **Batch Event Editing**  
+  - Copy/paste events across clips or rigs.  
+  - Export/import events as JSON or ScriptableObject.
 
 ---
 
-## 🛠 Future Plans
-- Auto-footstep detection based on animation curves.
-- Timeline zoom and event category color coding.
-- Batch event editing tools.
+## 🧠 Why Use This Tool?
+
+Unity’s built-in Animation Event editor is functional but limited.  
+**AnimEvent Editor** gives you:
+- Real-time, scrub-based feedback
+- More precise control over timing
+- Fast workflows for VFX/audio syncing
+- A better foundation for scaling to multi-clip workflows
 
 ---
 
-## 💬 Support
-If you encounter any issues or have suggestions for new features, feel free to open an issue or start a discussion!
+## 💬 Support & Feedback
+
+Have questions or want to suggest features?  
+Feel free to [open an issue](https://github.com/YOUR-USERNAME/YOUR-REPO/issues) or start a discussion!
 
 ---
 
-> Made with ❤️ by TalaeiDev
+## 📄 License
+
+MIT License  
+Free to use, modify, and distribute — with attribution.
+
+---
+
+> Made with ❤️ by **TalaeiDev**
