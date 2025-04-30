@@ -39,10 +39,36 @@ A lightweight Unity Editor tool for **previewing animations** and **adding Anima
 
 ---
 
-## 🛠 Future Plans
-- Auto-footstep detection based on animation curves.
-- Timeline zoom and event category color coding.
-- Batch event editing tools.
+🛠 Future Plans
+🔉 Play Sound or VFX During Preview
+Automatically trigger and preview footsteps, slash effects, or hit sounds based on animation events.
+
+Support for AudioClip, ParticleSystem, or prefab-based VFX.
+
+Preview effects directly in the Editor as you scrub.
+
+🪟 Separate Animation Preview Window
+Add a dedicated preview window that renders the animated character in a clean, focused UI, separate from the Scene view.
+
+🎚️ Animation Curve Editing Support
+Add and edit custom animation curves (e.g., for blending, float properties, shader effects, or motion parameters).
+
+Integrated curve field for easy editing.
+
+Support for curve-driven event triggers.
+
+🦶 Auto Footstep Detection
+Detect foot contact automatically using foot position or root motion and place footstep events for you.
+
+🗂️ Event Categories with Color Labels
+Visually group events (e.g., Footstep, Slash, Impact) on the timeline using color-coded markers for better readability.
+
+🔁 Batch Event Editing
+Copy/paste events between clips.
+
+Apply events to multiple clips or character rigs.
+
+Export/import to JSON or ScriptableObjects.
 
 ---
 
